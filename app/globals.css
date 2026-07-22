@@ -21,3 +21,18 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
+/* Hide Next.js dev indicator badge in development */
+[data-next-mark-loading],
+nextjs-portal {
+  display: none !important;
+}
+
+/* Custom Cursor cursor-none for fine pointer devices */
+@media (pointer: fine) {
+  html, body, a, button, input, textarea, select, [role="button"] {
+    cursor: none !important;
+  }
+}
+
+
