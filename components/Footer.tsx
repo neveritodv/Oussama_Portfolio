@@ -89,7 +89,7 @@ export const Footer: React.FC<FooterProps> = ({ onOpenContact }) => {
         {/* Bottom Rights & Links */}
         <div className="flex flex-col sm:flex-row items-center justify-between gap-6 pt-6 border-t border-[#2B2D38] text-xs text-[#D7E2EA]/60 font-mono">
           <div className="flex items-center gap-3">
-            <OussamaLogo size="sm" showSubtitle={false} />
+            <OussamaLogo size="md" showSubtitle={false} />
             <p>© {new Date().getFullYear()} Oussama Moujane. All rights reserved.</p>
           </div>
 

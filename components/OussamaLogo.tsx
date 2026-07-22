@@ -16,9 +16,10 @@ export const OussamaLogo: React.FC<OussamaLogoProps> = ({
   const [imageError, setImageError] = useState(false);
 
   const logoSizes = {
-    sm: 'h-8 sm:h-9',
-    md: 'h-10 sm:h-12 md:h-14',
-    lg: 'h-14 sm:h-16 md:h-20',
+    sm: 'h-12 sm:h-14',
+    md: 'h-20 sm:h-24 md:h-28',
+    lg: 'h-28 sm:h-32 md:h-36',
+    xl: 'h-36 sm:h-40 md:h-48',
   };
 
   return (
