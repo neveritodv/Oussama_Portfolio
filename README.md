@@ -88,7 +88,8 @@ Ensure you have [Node.js](https://nodejs.org/) (v18.0 or later) installed on you
 
 ## 👨‍💻 Author
 
-**Oussama Moujane (Oussama Dev)**
+**Oussama Moujane (OUSSAMA DEV)**
 - **Role**: Full Stack & Mobile Developer
-- **GitHub**: [@moujane1023](https://github.com/moujane1023)
+- **GitHub**: [@neveritodv](https://github.com/neveritodv)
+- **LinkedIn**: [Oussama Moujane](https://www.linkedin.com/in/oussama-moujan-20a787342/)
 - **Location**: Marrakech, Morocco

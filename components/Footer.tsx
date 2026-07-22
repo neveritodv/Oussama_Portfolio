@@ -94,10 +94,10 @@ export const Footer: React.FC<FooterProps> = ({ onOpenContact }) => {
           </div>
 
           <div className="flex space-x-6 items-center">
-            <a href="https://github.com/moujane1023" target="_blank" rel="noreferrer" className="hover:text-white transition-colors flex items-center gap-1">
+            <a href={PORTFOLIO_DATA.profile.githubUrl} target="_blank" rel="noreferrer" className="hover:text-white transition-colors flex items-center gap-1">
               <Github size={14} /> GitHub
             </a>
-            <a href="https://linkedin.com" target="_blank" rel="noreferrer" className="hover:text-white transition-colors flex items-center gap-1">
+            <a href={PORTFOLIO_DATA.profile.linkedinUrl} target="_blank" rel="noreferrer" className="hover:text-white transition-colors flex items-center gap-1">
               <Linkedin size={14} /> LinkedIn
             </a>
             <a href={`mailto:${PORTFOLIO_DATA.profile.email}`} className="hover:text-white transition-colors">

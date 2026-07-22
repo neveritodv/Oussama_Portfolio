@@ -10,15 +10,20 @@ import ProjectsSection from '@/components/ProjectsSection';
 import ExperienceSection from '@/components/ExperienceSection';
 import Footer from '@/components/Footer';
 import ContactModal from '@/components/ContactModal';
+import Cinematic3DLoader from '@/components/Cinematic3DLoader';
 
 export default function Home() {
   const [isContactOpen, setIsContactOpen] = useState(false);
+  const [isLoading, setIsLoading] = useState(true);
 
   const handleOpenContact = () => setIsContactOpen(true);
   const handleCloseContact = () => setIsContactOpen(false);
 
   return (
     <main className="bg-[#0C0C0C] min-h-screen text-[#D7E2EA] font-sans overflow-x-clip selection:bg-[#B600A8] selection:text-white">
+      {/* Ultra-Premium 3D Cinematic Loader */}
+      {isLoading && <Cinematic3DLoader onComplete={() => setIsLoading(false)} />}
+
       {/* 1. Hero Section */}
       <HeroSection onOpenContact={handleOpenContact} />
 

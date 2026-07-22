@@ -228,8 +228,8 @@ export const ContactModal: React.FC<ContactModalProps> = ({ isOpen, onClose }) =
                 <MapPin size={12} className="text-emerald-400" /> Marrakech, Morocco
               </span>
               <div className="flex space-x-3">
-                <a href="https://github.com/moujane1023" target="_blank" rel="noreferrer" className="hover:text-white transition-colors">GitHub</a>
-                <a href="https://linkedin.com" target="_blank" rel="noreferrer" className="hover:text-white transition-colors">LinkedIn</a>
+                <a href={PORTFOLIO_DATA.profile.githubUrl} target="_blank" rel="noreferrer" className="hover:text-white transition-colors">GitHub</a>
+                <a href={PORTFOLIO_DATA.profile.linkedinUrl} target="_blank" rel="noreferrer" className="hover:text-white transition-colors">LinkedIn</a>
                 <a href={`mailto:${PORTFOLIO_DATA.profile.email}`} className="hover:text-white transition-colors">Email</a>
               </div>
             </div>
