@@ -57,7 +57,7 @@ export const PORTFOLIO_DATA = {
 
   stats: [
     { label: "Years Experience", value: "2+" },
-    { label: "Production Projects", value: "6+" },
+    { label: "Production Projects", value: "7+" },
     { label: "Tech Stack Tools", value: "15+" },
     { label: "Client Satisfaction", value: "100%" },
   ],
@@ -357,6 +357,38 @@ export const PORTFOLIO_DATA = {
       imageCol2: "/assets/massari_2.jpg",
       imageCol3: "/assets/massari_3.jpg",
       bannerColor: "from-blue-950 via-indigo-900 to-slate-950",
+    },
+    {
+      id: "amina-kitchen",
+      number: "07",
+      title: "Amina Kitchen",
+      subtitle: "Luxury Moroccan Gastronomy & Premium Catering Web Ecosystem",
+      category: "Web",
+      clientOrRole: "Luxury Gastronomy Platform",
+      description:
+        "High-end luxury multi-page digital experience for modern Moroccan gastronomy, featuring interactive ordering, WhatsApp relay, catering packages, and glassmorphism interface.",
+      longDescription:
+        "Amina Kitchen is a luxury multi-page web application celebrating authentic Moroccan culinary heritage. Engineered with React, TypeScript, Vite, Tailwind CSS v4, and Framer Motion, it delivers a high-end digital experience on par with luxury hospitality brands. Features include a premium hero carousel showcasing signature dishes (Bastilla, Prestige Mhancha, Royal Briouates, Djaj Mhamer, Sefa, Msemen), interactive ordering system with real-time WhatsApp relay integration, progressive web app (PWA) readiness, favorites management system, advanced food search, luxury catering packages, and a cinematic booking & reservation system.",
+      techStack: ["React", "TypeScript", "Vite", "Tailwind CSS v4", "Framer Motion", "React Router", "Lucide Icons", "PWA"],
+      keyHighlights: [
+        "Premium hero carousel showcasing authentic Moroccan dishes & rich animations",
+        "Interactive ordering experience & favorites system with WhatsApp dispatch",
+        "Luxury dark mode & glassmorphism visual identity inspired by Moroccan heritage",
+        "Cinematic loading animations & page transitions powered by Framer Motion",
+        "Progressive Web App (PWA) ready with mobile-first responsive architecture",
+      ],
+      architecture: [
+        "Frontend: React + TypeScript + Vite + React Router",
+        "Styling: Tailwind CSS v4 custom Moroccan heritage dark theme",
+        "Motion: Framer Motion glassmorphism & cinematic loading system",
+        "Integrations: WhatsApp API ordering relay & Progressive Web App (PWA)",
+      ],
+      previewUrl: "#",
+      githubUrl: "https://github.com/neveritodv",
+      imageCol1: "/assets/amina_kitchen_1.jpg",
+      imageCol2: "/assets/amina_kitchen_2.jpg",
+      imageCol3: "/assets/amina_kitchen_3.jpg",
+      bannerColor: "from-amber-950 via-red-950 to-amber-900",
     },
   ],
 };
