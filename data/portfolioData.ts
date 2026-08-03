@@ -43,12 +43,12 @@ export const PORTFOLIO_DATA = {
     phone: "+212 693-805596",
     whatsapp: "212693805596",
     languages: [
-      { name: "French", level: "Fluent (Courant)" },
-      { name: "English", level: "Fluent (Courant)" },
-      { name: "Spanish", level: "Intermediate (Intermédiaire)" },
+      { name: "French", level: "Fluent" },
+      { name: "English", level: "Fluent" },
+      { name: "Spanish", level: "Intermediate" },
     ],
-    bio: "Full Stack & Mobile Developer specializing in high-performance web applications, cross-platform mobile solutions, and scalable SaaS backends. Driven by modern UI/UX design, performance optimization, and robust software architecture.",
-    longBio: "Passionate software engineer trained at École Racine Marrakech. Experienced in front-end (React, Next.js, Tailwind CSS), back-end (Laravel, Node.js, Django), cross-platform mobile (Flutter, React Native), and database architecture (MongoDB, MySQL, Firebase). I build reliable, production-ready platforms that combine sleek visual design with efficient backend engineering.",
+    bio: "Full Stack & Mobile Developer focused on building modern web applications, scalable backend systems, and cross-platform mobile solutions. I combine clean architecture, strong UX, and reliable business logic to build production-ready digital products.",
+    longBio: "Passionate software engineer trained at École Racine Marrakech. Experienced in modern web development, scalable backend architecture, and cross-platform mobile engineering with React, TypeScript, Laravel, Node.js, Flutter, and React Native. I design clean database schemas, secure REST APIs, and role-based SaaS platforms, balancing sleek UI/UX with robust business logic.",
     avatarUrl: "/assets/oussama_portrait.jpg",
     logoUrl: "/assets/oussama_logo.jpg",
     githubUrl: "https://github.com/neveritodv",
@@ -57,7 +57,7 @@ export const PORTFOLIO_DATA = {
 
   stats: [
     { label: "Years Experience", value: "2+" },
-    { label: "Production Projects", value: "7+" },
+    { label: "Production Projects", value: "8+" },
     { label: "Tech Stack Tools", value: "15+" },
     { label: "Client Satisfaction", value: "100%" },
   ],
@@ -68,30 +68,40 @@ export const PORTFOLIO_DATA = {
       items: ["PHP", "JavaScript", "TypeScript", "Dart", "Java", "Python", "C", "C++", "C#"],
     },
     {
-      category: "Web Development",
-      items: ["React.js", "Next.js", "Laravel", "Node.js", "Express.js", "Tailwind CSS", "WordPress", "HTML5/CSS3"],
+      category: "Frontend",
+      items: ["React", "React 18", "React 19", "Next.js", "TanStack Start", "TanStack Router", "TanStack Query", "Tailwind CSS", "HTML5", "CSS3"],
     },
     {
-      category: "Mobile & Desktop",
-      items: ["Flutter", "React Native", "Java Swing", ".NET", "ImGui"],
+      category: "Backend",
+      items: ["Laravel", "Node.js", "Express.js", "Django", "Flask", "REST APIs", "WebSockets", "Socket.io"],
     },
     {
-      category: "Backend & Frameworks",
-      items: ["Django", "Flask", "REST APIs", "WebSockets", "Socket.io", "Laravel Sail", "Docker"],
+      category: "Mobile",
+      items: ["Flutter", "React Native"],
     },
     {
-      category: "Databases & Cloud",
-      items: ["MySQL", "MongoDB", "SQLite", "SQL Server", "Firebase Firestore"],
+      category: "Databases",
+      items: ["MySQL", "MongoDB", "SQLite", "PostgreSQL", "SQL Server", "Firebase"],
+    },
+    {
+      category: "Tools / Infrastructure",
+      items: ["Docker", "Laravel Sail", "Vite", "Git"],
+    },
+    {
+      category: "UI / Libraries",
+      items: ["Radix UI", "Motion", "Framer Motion", "Recharts"],
     },
   ],
 
   softSkills: [
     "Creativity & UX Focus",
-    "Autonomy & Initiative",
+    "Problem Solving",
+    "Autonomous Work",
     "Team Collaboration",
     "Adaptability",
-    "Problem Solving & Debugging",
+    "Debugging & Troubleshooting",
     "Effective Communication",
+    "Clean Code & Maintainability",
   ],
 
   experiences: [
@@ -132,7 +142,7 @@ export const PORTFOLIO_DATA = {
         "Engineered an event-scale meal delivery & promo logistics platform for large crowds (CAN, festivals).",
         "Developed 2 Flutter mobile apps (Client & Driver) with live GPS geolocation tracking via WebSockets.",
         "Integrated AI pathfinding (A* algorithm) for crowd flows and LSTM neural networks for order spike forecasting.",
-        "Benchmarked system at 1800+ concurrent requests with under 200ms API response time.",
+        "Benchmarked system at 1,800+ concurrent requests with under 200ms API response time.",
       ],
       skillsUsed: ["Flutter", "Node.js", "Express", "MongoDB", "WebSockets", "A* Algorithm", "LSTM"],
     },
@@ -143,31 +153,31 @@ export const PORTFOLIO_DATA = {
       number: "01",
       title: "Web Application Development",
       description:
-        "Building responsive, ultra-fast web platforms using React, Next.js, and Tailwind CSS on the frontend paired with Laravel or Node.js on the backend.",
+        "Building modern, responsive web applications using React, Next.js, TypeScript, Tailwind CSS, Laravel, and Node.js.",
     },
     {
       number: "02",
-      title: "Cross-Platform Mobile Apps",
+      title: "Full Stack Development",
       description:
-        "Developing native-quality iOS and Android applications with Flutter and React Native featuring real-time geolocation, offline support, and smooth UI.",
+        "Designing complete frontend/backend solutions with REST APIs, authentication, business logic, database architecture, and integrations.",
     },
     {
       number: "03",
-      title: "SaaS & Multi-Tenant Backends",
+      title: "Cross-Platform Mobile Apps",
       description:
-        "Architecting secure multi-tenant backends, RESTful APIs, role-based access control (RBAC), database isolation, and third-party integrations (WhatsApp, Stripe).",
+        "Building Android and iOS applications using Flutter and React Native with responsive interfaces and API integrations.",
     },
     {
       number: "04",
-      title: "Real-Time Systems & AI Logic",
+      title: "SaaS & Business Platforms",
       description:
-        "Integrating WebSockets for live tracking, real-time messaging, IoT/GPS streams, and smart algorithmic features (predictive forecasting, pathfinding).",
+        "Developing role-based SaaS platforms, dashboards, booking systems, management systems, and operational workflows.",
     },
     {
       number: "05",
-      title: "Database Modeling & API Design",
+      title: "API & Database Architecture",
       description:
-        "Designing scalable relational (MySQL, SQL Server) and NoSQL (MongoDB, Firebase) schemas with strict query optimization and security rules.",
+        "Designing secure REST APIs, database schemas, authentication systems, RBAC, and scalable backend architectures.",
     },
   ],
 
