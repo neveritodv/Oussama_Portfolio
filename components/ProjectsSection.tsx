@@ -24,7 +24,7 @@ const ProjectCard: React.FC<CardProps> = ({
   onSelectProject,
 }) => {
   const targetScale = 1 - (totalCards - 1 - index) * 0.03;
-  const range = [index * 0.2, 1];
+  const range = [index * (0.8 / totalCards), 1];
   const scale = useTransform(progress, range, [1, targetScale]);
 
   return (
@@ -165,7 +165,7 @@ export const ProjectsSection: React.FC = () => {
   const filteredProjects =
     activeCategory === 'All'
       ? PORTFOLIO_DATA.projects
-      : PORTFOLIO_DATA.projects.filter((p) => p.category === activeCategory);
+      : PORTFOLIO_DATA.projects.filter((p) => p.category.includes(activeCategory));
 
   return (
     <section
