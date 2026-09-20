@@ -149,6 +149,33 @@ export const PORTFOLIO_DATA = {
 
   experiences: [
     {
+      role: "Développeur Full Stack",
+      company: "Customer Obsession",
+      period: "Août 2026 – Septembre 2026 (2 mois)",
+      location: "Marrakech, Maroc",
+      type: "Expérience Professionnelle",
+      description: [
+        "Développement et maintenance d'applications web Full Stack.",
+        "Développement et intégration de fonctionnalités front-end et back-end.",
+        "Conception, développement et intégration d'API REST.",
+        "Travail avec les données et intégration des données côté serveur.",
+        "Correction de bugs, débogage et amélioration de la qualité du code.",
+        "Participation à l'évolution et à la maintenance des fonctionnalités existantes.",
+        "Collaboration sur les besoins techniques et l'implémentation des fonctionnalités.",
+      ],
+      skillsUsed: [
+        "React.js",
+        "JavaScript",
+        "Node.js",
+        "Express.js",
+        "Laravel",
+        "REST API",
+        "MySQL",
+        "PostgreSQL",
+        "Git",
+      ],
+    },
+    {
       role: "Full Stack & Mobile Developer",
       company: "Job Hunter Project",
       period: "2026",
